@@ -17,7 +17,7 @@ def _start(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/RioGroupSupport).",
+                   text="Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/Anime_Chat_Group_Community).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -42,8 +42,8 @@ def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/RioProjects"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/riogroupsupport")
+                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/Kayto_Official"),
+                           InlineKeyboardButton("Support Group", url="https://t.me/Anime_Chat_Group_Community")
                       ],
 
                   ]
@@ -57,8 +57,8 @@ def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/RioProjects"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/riogroupsupport")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/Kayto_Official"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/Anime_Chat_Group_Community")
                 ],
             ]
         ),
@@ -77,11 +77,11 @@ def _source_code(client, message):
                     InlineKeyboardButton("Creator", url="https://t.me/riio00")
                 ],
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/RioProjects"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/riogroupsupport")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/Kayto_Official"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/Anime_Chat_Group_Community")
                 ],
                 [
-                    InlineKeyboardButton("Creator", url="https://t.me/riio00")
+                    InlineKeyboardButton("Creator", url="https://t.me/X_STARBOY_KT")
                 ]
             ]
         ),
@@ -98,7 +98,7 @@ def _help(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/riogroupsupport).",
+                   text="Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/Anime_Chat_Group_Community).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -120,7 +120,7 @@ def _help(client, message):
         except Exception:
             client.send_message(
                 chat_id=message.chat.id,
-                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/riogroupsupport).",
+                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/Anime_Chat_Group_Community).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
